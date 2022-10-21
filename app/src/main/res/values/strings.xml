@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EnsayoG46</string>
+    <string name="name">User</string>
+    <string name="edtxtname">User Input</string>
+    <string name="txtview">Password</string>
+    <string name="edtxtpass">*******</string>
+    <string name="btn_acces">Login</string>
+    <string name="btn_nuevo">New User</string>
+</resources>
