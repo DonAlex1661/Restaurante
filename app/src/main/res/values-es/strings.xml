@@ -1,9 +1,22 @@
 <resources>
     <string name="app_name">EnsayoG46</string>
     <string name="name">Usuario</string>
-    <string name="edtxtname">Ingrese usuario Input</string>
-    <string name="txtview">Contrase�a</string>
+    <string name="edtxtname">Ingrese usuario</string>
+    <string name="txtview">Contrase�a</string>
     <string name="edtxtpass">*******</string>
     <string name="btn_acces">Acceder</string>
     <string name="btn_nuevo">Registrarse</string>
+
+    <string name="edtxtform">Formulario para Usuario </string>
+    <string name="names">Nombres</string>
+    <string name="edtxtnames">Ingresar nombres</string>
+    <string name="txtviewlastnames">Apellidos</string>
+    <string name="edtxtlastnames">Ingresar apellidos</string>
+    <string name="txtviewmail">Correo electrónico</string>
+    <string name="edtxtmail">Ingresa tu E-mail</string>
+    <string name="txtviewphone">Número telefónico</string>
+    <string name="edtxtphone">Ingresa tu número telefónico</string>
+    <string name="txtviewterms">Acepta los terminos</string>
+    <string name="checkSI">Si</string>
+    <string name="btn_regist">Registrarse</string>
 </resources>

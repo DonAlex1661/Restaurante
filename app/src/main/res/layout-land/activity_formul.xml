@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".formulActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/cinzel_decorative"
         android:text="@string/edtxtform"
         android:textAlignment="center"
-        android:textSize="24sp" />
+        android:textSize="16sp" />
 
     <TextView
 
@@ -26,7 +25,8 @@
         android:layout_marginBottom="10dp"
         android:baselineAligned="false"
         android:fontFamily="@font/cinzel_decorative"
-        android:text="@string/names" />/>
+        android:text="@string/names"
+        android:textSize="12sp" />/>
 
 
     <LinearLayout
@@ -36,7 +36,7 @@
     <EditText
         android:id="@+id/editTextPersonName"
         android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_gravity="center"
         android:autofillHints="password"
         android:ems="10"
@@ -44,7 +44,7 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColorHint="#757575"
-        android:textSize="12sp" />
+        android:textSize="8sp" />
 
     <TextView
         android:layout_width="350dp"
@@ -54,12 +54,13 @@
         android:layout_marginBottom="10dp"
         android:baselineAligned="false"
         android:fontFamily="@font/cinzel_decorative"
-        android:text="@string/txtviewlastnames" />
+        android:text="@string/txtviewlastnames"
+        android:textSize="12sp" />
 
 
     <EditText
         android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_gravity="center"
         android:autofillHints="password"
         android:ems="10"
@@ -67,7 +68,7 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColorHint="#757575"
-        android:textSize="12sp" />
+        android:textSize="8sp" />
 
 
     <TextView
@@ -78,12 +79,13 @@
         android:layout_marginBottom="10dp"
         android:baselineAligned="false"
         android:fontFamily="@font/cinzel_decorative"
-        android:text="@string/txtviewmail" />
+        android:text="@string/txtviewmail"
+        android:textSize="12sp" />
 
 
     <EditText
         android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_gravity="center"
         android:autofillHints="password"
         android:ems="10"
@@ -91,7 +93,7 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColorHint="#757575"
-        android:textSize="12sp" />
+        android:textSize="8sp" />
 
     <TextView
         android:layout_width="350dp"
@@ -101,19 +103,21 @@
         android:layout_marginBottom="10dp"
         android:baselineAligned="false"
         android:fontFamily="@font/cinzel_decorative"
-        android:text="@string/txtview" />
+        android:text="@string/txtview"
+        android:textSize="12sp" />
 
 
     <EditText
         android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_gravity="center"
         android:autofillHints="password"
         android:ems="10"
         android:hint="@string/edtxtpass"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColorHint="#757575" />
+        android:textColorHint="#757575"
+        android:textSize="8sp" />
 
     <TextView
         android:layout_width="350dp"
@@ -123,12 +127,13 @@
         android:layout_marginBottom="10dp"
         android:baselineAligned="false"
         android:fontFamily="@font/cinzel_decorative"
-        android:text="@string/txtviewphone" />
+        android:text="@string/txtviewphone"
+        android:textSize="12sp" />
 
 
     <EditText
         android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_gravity="center"
         android:autofillHints="password"
         android:ems="10"
@@ -136,7 +141,8 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColorHint="#757575"
-        android:textSize="12sp" />
+        android:textSize="8sp" />
+
     <TextView
         android:layout_width="350dp"
         android:layout_height="wrap_content"
@@ -144,23 +150,26 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:baselineAligned="false"
-        android:text="@string/txtviewterms" />
+        android:text="@string/txtviewterms"
+        android:textSize="8sp" />
 
     <CheckBox
         android:id="@+id/checkBox"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_width="181dp"
+        android:layout_height="14dp"
         android:layout_gravity="center"
         android:fontFamily="@font/cinzel_decorative"
-        android:text="@string/checkSI" />
+        android:text="@string/checkSI"
+        android:textSize="8sp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="150dp"
-        android:layout_height="70dp"
+        android:layout_height="23dp"
         android:layout_gravity="center"
         android:backgroundTint="#BF240A"
         android:fontFamily="@font/cinzel_decorative"
-        android:text="@string/btn_regist" />
+        android:text="@string/btn_regist"
+        android:textSize="10sp" />
 
 </LinearLayout>

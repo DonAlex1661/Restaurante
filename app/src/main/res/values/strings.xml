@@ -6,4 +6,18 @@
     <string name="edtxtpass">*******</string>
     <string name="btn_acces">Login</string>
     <string name="btn_nuevo">New User</string>
+
+    <string name="edtxtform">User Form</string>
+    <string name="names">Names</string>
+    <string name="edtxtnames">Type names</string>
+    <string name="txtviewlastnames">Lastnames</string>
+    <string name="edtxtlastnames">Type lastnames</string>
+    <string name="txtviewmail">E-mail</string>
+    <string name="edtxtmail">Type E-mail</string>
+    <string name="txtviewphone">Phone number</string>
+    <string name="edtxtphone">Type your Phone number</string>
+    <string name="txtviewterms">Accept terms</string>
+    <string name="checkSI">Yes</string>
+    <string name="btn_regist">Check In</string>
+
 </resources>
