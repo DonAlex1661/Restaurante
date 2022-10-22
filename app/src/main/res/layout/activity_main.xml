@@ -97,6 +97,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#E53935"
                 android:gravity="center"
+                android:onClick="registro"
                 android:text="@string/btn_nuevo" />
 
         </LinearLayout>
